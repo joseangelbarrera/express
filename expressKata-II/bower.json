@@ -1,0 +1,20 @@
+{
+  "name": "expressKata-II",
+  "description": "## A: Install the ack-end",
+  "main": "index.js",
+  "authors": [
+    "José Ángel <barrera@estudiodepublicidad.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

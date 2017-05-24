@@ -1,0 +1,12 @@
+form(action='/todo', method='POST')
+  input(type='text', name='item')
+  button Add tastk to list!
+
+ul
+  each task in todo
+    li #{task.item} ===  #{task.quantity}
+      button remove!
+      input(type='text', name='Update task')
+      button Update
+
+
